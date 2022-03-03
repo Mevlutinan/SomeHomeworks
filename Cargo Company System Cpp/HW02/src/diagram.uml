@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="449.97526984126984" y="1138.0">Administrator</node>
+    <node x="838.6080079365079" y="0.0">Customer</node>
+    <node x="217.5" y="554.0">TransportationPersonnel</node>
+    <node x="519.8086031746031" y="815.0">Branch</node>
+    <node x="76.38546031746034" y="246.0">ArrayFunctions</node>
+    <node x="10.5" y="576.0">ManupulateArrayList</node>
+    <node x="755.8805476190475" y="147.0">Package</node>
+    <node x="437.1939682539682" y="213.0">Personnel</node>
+    <node x="536.5" y="532.0">BranchEmployee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="TransportationPersonnel" target="Branch">
+      <point x="0.0" y="59.5" />
+      <point x="355.5" y="765.0" />
+      <point x="564.9197142857142" y="765.0" />
+      <point x="-70.88888888888886" y="-136.5" />
+    </edge>
+    <edge source="Branch" target="ArrayFunctions">
+      <point x="-96.66666666666663" y="-136.5" />
+      <point x="539.1419365079365" y="785.0" />
+      <point x="207.0" y="785.0" />
+      <point x="207.0" y="512.0" />
+      <point x="175.38546031746034" y="512.0" />
+      <point x="-33.0" y="48.5" />
+    </edge>
+    <edge source="TransportationPersonnel" target="ArrayFunctions">
+      <point x="-103.5" y="-59.5" />
+      <point x="252.0" y="512.0" />
+      <point x="241.38546031746034" y="512.0" />
+      <point x="33.0" y="48.5" />
+    </edge>
+    <edge source="BranchEmployee" target="Branch">
+      <point x="99.66666666666674" y="81.5" />
+      <point x="785.6666666666667" y="725.0" />
+      <point x="655.1419365079365" y="725.0" />
+      <point x="19.33333333333337" y="-136.5" />
+    </edge>
+    <edge source="BranchEmployee" target="ArrayFunctions">
+      <point x="-112.125" y="-81.5" />
+      <point x="573.875" y="482.0" />
+      <point x="307.38546031746034" y="482.0" />
+      <point x="99.0" y="48.5" />
+    </edge>
+    <edge source="Branch" target="Personnel">
+      <point x="-32.22222222222217" y="-136.5" />
+      <point x="603.586380952381" y="735.0" />
+      <point x="515.0" y="735.0" />
+      <point x="515.0" y="492.0" />
+      <point x="526.1939682539683" y="492.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="Administrator" target="ArrayFunctions">
+      <point x="-86.80000000000007" y="-59.5" />
+      <point x="471.67526984126977" y="1118.0" />
+      <point x="0.0" y="1118.0" />
+      <point x="0.0" y="512.0" />
+      <point x="109.38546031746034" y="512.0" />
+      <point x="-99.0" y="48.5" />
+    </edge>
+    <edge source="Administrator" target="Branch">
+      <point x="0.0" y="-59.5" />
+      <point x="-77.33333333333331" y="136.5" />
+    </edge>
+    <edge source="Branch" target="ManupulateArrayList">
+      <point x="-109.55555555555554" y="-136.5" />
+      <point x="526.2530476190476" y="795.0" />
+      <point x="150.0" y="795.0" />
+      <point x="46.5" y="37.5" />
+    </edge>
+    <edge source="TransportationPersonnel" target="Package">
+      <point x="103.5" y="-59.5" />
+      <point x="459.0" y="512.0" />
+      <point x="773.4519761904761" y="512.0" />
+      <point x="-105.42857142857144" y="147.5" />
+    </edge>
+    <edge source="TransportationPersonnel" target="Personnel">
+      <point x="-34.5" y="-59.5" />
+      <point x="321.0" y="492.0" />
+      <point x="449.9082539682539" y="492.0" />
+      <point x="-76.28571428571428" y="81.5" />
+    </edge>
+    <edge source="Branch" target="Package">
+      <point x="32.22222222222223" y="-136.5" />
+      <point x="668.0308253968253" y="735.0" />
+      <point x="877.9504444444443" y="735.0" />
+      <point x="877.9504444444443" y="512.0" />
+      <point x="843.7376904761904" y="512.0" />
+      <point x="-35.14285714285717" y="147.5" />
+    </edge>
+    <edge source="Package" target="Customer">
+      <point x="-82.0" y="-147.5" />
+      <point x="796.8805476190475" y="127.0" />
+      <point x="857.5080079365079" y="127.0" />
+      <point x="-75.6" y="48.5" />
+    </edge>
+    <edge source="Customer" target="Branch">
+      <point x="75.60000000000002" y="48.5" />
+      <point x="1008.7080079365079" y="117.0" />
+      <point x="1023.3805476190475" y="117.0" />
+      <point x="1023.3805476190475" y="795.0" />
+      <point x="745.3641587301587" y="795.0" />
+      <point x="109.55555555555554" y="-136.5" />
+    </edge>
+    <edge source="Package" target="Branch">
+      <point x="70.28571428571428" y="147.5" />
+      <point x="949.1662619047618" y="502.0" />
+      <point x="934.9439682539683" y="502.0" />
+      <point x="934.9439682539683" y="765.0" />
+      <point x="706.6974920634921" y="765.0" />
+      <point x="70.88888888888891" y="-136.5" />
+    </edge>
+    <edge source="Branch" target="BranchEmployee">
+      <point x="-6.4444444444444" y="-136.5" />
+      <point x="629.3641587301588" y="715.0" />
+      <point x="586.3333333333334" y="715.0" />
+      <point x="-99.66666666666663" y="81.5" />
+    </edge>
+    <edge source="BranchEmployee" target="Package">
+      <point x="112.125" y="-81.5" />
+      <point x="798.125" y="512.0" />
+      <point x="808.5948333333332" y="512.0" />
+      <point x="-70.2857142857143" y="147.5" />
+    </edge>
+    <edge source="Branch" target="TransportationPersonnel">
+      <point x="-83.77777777777771" y="-136.5" />
+      <point x="552.0308253968254" y="775.0" />
+      <point x="263.5" y="775.0" />
+      <point x="-92.0" y="59.5" />
+    </edge>
+    <edge source="Administrator" target="ManupulateArrayList">
+      <point x="-43.400000000000034" y="-59.5" />
+      <point x="515.0752698412698" y="1108.0" />
+      <point x="57.0" y="1108.0" />
+      <point x="-46.5" y="37.5" />
+    </edge>
+    <edge source="BranchEmployee" target="Personnel">
+      <point x="37.375" y="-81.5" />
+      <point x="723.375" y="462.0" />
+      <point x="602.4796825396825" y="462.0" />
+      <point x="76.28571428571433" y="81.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="492.27164502164464" y="601.7857142857143" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
